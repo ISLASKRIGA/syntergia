@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Syntergia — The emergence of connection</title>
+  <meta name="description" content="Syntergia diseña sistemas donde datos, personas e inteligencia artificial se conectan para producir algo nuevo. Diferentes elementos. Una nueva realidad." />
+  <meta name="theme-color" content="#F7F5EF" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500&family=Instrument+Serif:ital@0;1&family=Jost:wght@300;400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- Floating island nav -->
+  <header class="nav" data-nav>
+    <a href="#top" class="nav__brand" aria-label="Syntergia, inicio">
+      <svg class="mark mark--nav" data-mark="nav" viewBox="0 0 200 300" aria-hidden="true"></svg>
+      <span class="wordmark wordmark--sm">SYNTERGIA</span>
+    </a>
+    <nav class="nav__links" aria-label="Principal">
+      <a href="#manifiesto">Manifiesto</a>
+      <a href="#capacidades">Capacidades</a>
+      <a href="#metodo">Método</a>
+      <a href="#identidad">Identidad</a>
+    </nav>
+    <a href="#contacto" class="btn btn--dark btn--sm">
+      <span>Conversemos</span>
+      <span class="btn__icon" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M5 11 11 5M6 5h5v5"/></svg></span>
+    </a>
+    <button class="nav__toggle" aria-label="Abrir menú" aria-expanded="false" data-menu-toggle>
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <div class="menu" data-menu aria-hidden="true">
+    <nav class="menu__links">
+      <a href="#manifiesto" style="--i:0">Manifiesto</a>
+      <a href="#capacidades" style="--i:1">Capacidades</a>
+      <a href="#metodo" style="--i:2">Método</a>
+      <a href="#identidad" style="--i:3">Identidad</a>
+      <a href="#contacto" style="--i:4">Contacto</a>
+    </nav>
+  </div>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero__mark-wrap" data-parallax>
+        <svg class="mark mark--hero" data-mark="hero" viewBox="0 0 200 300" role="img" aria-label="Símbolo de Syntergia"></svg>
+      </div>
+      <h1 class="hero__title">
+        <span class="wordmark wordmark--hero" aria-label="Syntergia">
+          <span>S</span><span>Y</span><span>N</span><span>T</span><span>E</span><span>R</span><span>G</span><span>I</span><span>A</span>
+        </span>
+      </h1>
+      <p class="hero__tagline">The emergence of connection</p>
+      <p class="hero__lede reveal">
+        Diseñamos sistemas donde datos, personas e inteligencia artificial
+        se conectan para producir <em>algo que ninguno podría por sí solo.</em>
+      </p>
+      <div class="hero__ctas reveal">
+        <a href="#contacto" class="btn btn--dark">
+          <span>Iniciar un proyecto</span>
+          <span class="btn__icon" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M5 11 11 5M6 5h5v5"/></svg></span>
+        </a>
+        <a href="#manifiesto" class="btn btn--ghost">Leer el manifiesto</a>
+      </div>
+      <a href="#manifiesto" class="hero__scroll" aria-label="Bajar">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- MANIFESTO (dark, live field) -->
+    <section class="manifesto" id="manifiesto">
+      <canvas class="field" data-field aria-hidden="true"></canvas>
+      <div class="manifesto__inner">
+        <span class="eyebrow eyebrow--dark reveal">Manifiesto</span>
+        <h2 class="manifesto__title reveal">
+          Diferentes elementos.<br />
+          <em>Una nueva realidad.</em>
+        </h2>
+        <div class="manifesto__cols">
+          <p class="reveal">
+            La sinergia no se fabrica: emerge. Cuando los sistemas correctos se tocan
+            en el punto exacto, aparece una inteligencia que no estaba en ninguna de las partes.
+          </p>
+          <p class="reveal">
+            Nuestro trabajo es encontrar esos puntos. Trazar las conexiones invisibles entre
+            lo que una organización sabe, lo que hace y lo que podría llegar a ser.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CAPABILITIES (asymmetric bento) -->
+    <section class="section" id="capacidades">
+      <header class="section__head">
+        <span class="eyebrow reveal">Capacidades</span>
+        <h2 class="section__title reveal">Cuatro disciplinas.<br /><em>Un solo tejido.</em></h2>
+      </header>
+
+      <div class="bento">
+        <article class="bezel bento__a reveal">
+          <div class="bezel__core card card--dark">
+            <span class="card__num">01</span>
+            <h3>Inteligencia aplicada</h3>
+            <p>Modelos y agentes de IA integrados en la operación real — no como demo, sino como infraestructura que aprende con cada interacción.</p>
+            <svg class="card__art" data-mark="card" viewBox="0 0 200 300" aria-hidden="true"></svg>
+          </div>
+        </article>
+
+        <article class="bezel bento__b reveal">
+          <div class="bezel__core card">
+            <span class="card__num">02</span>
+            <h3>Arquitectura de datos</h3>
+            <p>Unificamos fuentes dispersas en una sola estructura legible, gobernada y lista para decidir.</p>
+          </div>
+        </article>
+
+        <article class="bezel bento__c reveal">
+          <div class="bezel__core card">
+            <span class="card__num">03</span>
+            <h3>Integración de sistemas</h3>
+            <p>APIs, automatización y flujos que hacen que tus herramientas hablen el mismo idioma.</p>
+          </div>
+        </article>
+
+        <article class="bezel bento__d reveal">
+          <div class="bezel__core card card--violet">
+            <span class="card__num">04</span>
+            <h3>Diseño de experiencia</h3>
+            <p>Interfaces que vuelven visible la complejidad. Lo que no se entiende, no se usa.</p>
+            <div class="card__dots" aria-hidden="true">
+              <i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- METHOD (editorial split w/ construction drawing) -->
+    <section class="section method" id="metodo">
+      <div class="method__visual reveal">
+        <div class="bezel">
+          <div class="bezel__core method__plate">
+            <svg class="mark mark--construct" data-mark="construct" viewBox="0 0 200 300" aria-hidden="true"></svg>
+            <span class="plate__label">Construcción</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="method__body">
+        <span class="eyebrow reveal">Método</span>
+        <h2 class="section__title reveal">Cada conexión<br /><em>tiene una geometría.</em></h2>
+        <ol class="steps">
+          <li class="step reveal">
+            <span class="step__n">i</span>
+            <div>
+              <h3>Observar</h3>
+              <p>Mapeamos personas, procesos y datos tal como existen — no como dice el organigrama.</p>
+            </div>
+          </li>
+          <li class="step reveal">
+            <span class="step__n">ii</span>
+            <div>
+              <h3>Conectar</h3>
+              <p>Identificamos los nodos con mayor tensión y diseñamos los enlaces que la liberan.</p>
+            </div>
+          </li>
+          <li class="step reveal">
+            <span class="step__n">iii</span>
+            <div>
+              <h3>Emerger</h3>
+              <p>Construimos, medimos y dejamos que el sistema revele capacidades que no estaban planeadas.</p>
+            </div>
+          </li>
+          <li class="step reveal">
+            <span class="step__n">iv</span>
+            <div>
+              <h3>Evolucionar</h3>
+              <p>Lo entregamos vivo: documentado, observable y preparado para seguir creciendo sin nosotros.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- IDENTITY -->
+    <section class="section identity" id="identidad">
+      <header class="section__head">
+        <span class="eyebrow reveal">Identidad</span>
+        <h2 class="section__title reveal">Hecha de puntos<br /><em>que deciden unirse.</em></h2>
+      </header>
+
+      <div class="identity__grid">
+        <div class="bezel reveal">
+          <div class="bezel__core swatch swatch--obs">
+            <span class="swatch__name">Obsidiana</span><span class="swatch__hex">#0B0B0F</span>
+          </div>
+        </div>
+        <div class="bezel reveal">
+          <div class="bezel__core swatch swatch--ivo">
+            <span class="swatch__name">Marfil</span><span class="swatch__hex">#F7F5EF</span>
+          </div>
+        </div>
+        <div class="bezel reveal">
+          <div class="bezel__core swatch swatch--vio">
+            <span class="swatch__name">Violeta espectral</span><span class="swatch__hex">#6B4CFF</span>
+          </div>
+        </div>
+        <div class="bezel reveal">
+          <div class="bezel__core swatch swatch--app">
+            <div class="app-icon"><svg data-mark="app" viewBox="0 0 200 300" aria-hidden="true"></svg></div>
+            <span class="swatch__name">Ícono · App</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contacto">
+      <div class="contact__inner">
+        <span class="eyebrow eyebrow--dark reveal">Contacto</span>
+        <h2 class="contact__title reveal">¿Qué podría emerger<br /><em>si todo estuviera conectado?</em></h2>
+        <div class="reveal">
+          <a href="mailto:hola@syntergia.com" class="btn btn--light btn--lg">
+            <span>hola@syntergia.com</span>
+            <span class="btn__icon" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M5 11 11 5M6 5h5v5"/></svg></span>
+          </a>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div class="footer__brand">
+          <svg class="mark mark--foot" data-mark="foot" viewBox="0 0 200 300" aria-hidden="true"></svg>
+          <span class="wordmark wordmark--sm">SYNTERGIA</span>
+        </div>
+        <p class="footer__note">Diferentes elementos. Una nueva realidad.</p>
+        <p class="footer__copy">© <span data-year></span> Syntergia</p>
+      </footer>
+    </section>
+  </main>
+
+  <script src="main.js" defer></script>
+</body>
+</html>
